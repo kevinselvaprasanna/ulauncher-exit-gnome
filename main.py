@@ -37,8 +37,9 @@ class KeywordQueryEventListener(EventListener):
                         included.append('reboot')
                     elif option in ['logout']:
                         items.append(get_logout_item())
-                    elif option in ['suspend', 'sleep']:
+                    elif option in ['suspend', 'sleep'] and 'sleep' not in included:
                         items.append(get_suspend_item())
+                        included.append('sleep')
 
             return RenderResultListAction(items)
 
