@@ -1,19 +1,19 @@
 {
   "manifest_version": "1",
   "api_version": "1",
-  "name": "Exit Gnome",
-  "description": "Logout / Reboot / Shutdown functions for Gnome desktop.",
-  "developer_name": "Roberto Leinardi",
-  "icon": "images/gnome-logout.png",
+  "name": "Exit Openbox",
+  "description": "Logout / Reboot / Shutdown functions for Openbox desktop.",
+  "developer_name": "Kevin Selva Prasanna",
+  "icon": "images/logout.png",
   "options": {
     "query_debounce": 0.1
   },
   "preferences": [
     {
-      "id": "gnomesession_ext",
+      "id": "openboxsession_ext",
       "type": "keyword",
-      "name": "Exit Gnome",
-      "description": "Logout / Reboot / Shutdown functions for Gnome desktop.",
+      "name": "Exit Openbox",
+      "description": "Logout / Reboot / Shutdown functions for Openbox desktop.",
       "default_value": "exit"
     }
   ]
