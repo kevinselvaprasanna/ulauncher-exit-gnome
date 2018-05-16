@@ -1,7 +1,5 @@
-A [Ulauncher](https://ulauncher.io/) extension to support `gnome-session-quit`.
+A [Ulauncher](https://ulauncher.io/) extension to support session actions for Openbox.
 
-![extension screenshot](https://i.imgur.com/pJGSOcx.png)
+![extension screenshot](https://i.imgur.com/iiPBexl.png)
 
-Icons are part of the [Faenza icon set by tiheum](https://tiheum.deviantart.com/art/Faenza-Icons-173323228).
-
-This extension was inspired by [Exit Cinnamon](https://github.com/seqizz/ulauncher-exit-cinnamon).
+This extension was forked from [Exit Gnome](https://github.com/leinardi/ulauncher-exit-gnome) which inturn was inspired by [Exit Cinnamon](https://github.com/seqizz/ulauncher-exit-cinnamon).
